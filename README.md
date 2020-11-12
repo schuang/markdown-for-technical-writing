@@ -19,3 +19,5 @@
     - https://pandoc.org/demos.html
 - Travis CI
     - https://docs.travis-ci.com/user/tutorial/
+- Citation format (.csl files)
+    - https://github.com/citation-style-language/styles
