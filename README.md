@@ -17,3 +17,5 @@
     - https://markdown-guide.readthedocs.io/en/latest/
 - Pandoc
     - https://pandoc.org/demos.html
+- Travis CI
+    - https://docs.travis-ci.com/user/tutorial/
