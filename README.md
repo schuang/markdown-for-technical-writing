@@ -2,6 +2,8 @@
 
 ## Workshop
 
+2020-11-12 @ UCLA
+
 - [Slides](https://docs.google.com/presentation/d/1IPsBJVjfnYY4nXC3jZ_me35QJr2cbc2UNstlcKaqRm0/edit?usp=sharing)
 - [In-workshop Q&A sheet](https://docs.google.com/document/d/1bxlj2Zi7N-ovx5_FwhdDA67kEcSHaGEIfGrRhLTnDdw/edit?usp=sharing)
 
