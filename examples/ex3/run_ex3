@@ -1,0 +1,20 @@
+# PDF output
+pandoc \
+--filter pandoc-crossref \
+--citeproc \
+-N -H header.tex default.yaml \
+--csl aps.csl \
+--bibliography refs.bib \
+-o out.pdf \
+ex3.md
+
+# HTML output
+pandoc \
+--filter pandoc-crossref \
+--citeproc \
+-N default.yaml \
+--csl aps.csl \
+--bibliography refs.bib \
+--mathjax -s \
+-o ex3.html \
+ex3.md

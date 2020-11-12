@@ -1,0 +1,116 @@
+\hypertarget{markdown-example}{%
+\section{Markdown example}\label{markdown-example}}
+
+\hypertarget{lists}{%
+\subsection{Lists}\label{lists}}
+
+It's very easy to make some words \textbf{bold} and other words
+\emph{italic} with Markdown. You can even \href{http://google.com}{link
+to Google!}
+
+\begin{itemize}
+\tightlist
+\item
+  The first important point
+
+  \begin{itemize}
+  \tightlist
+  \item
+    sub-item 1
+  \item
+    sub-item 2
+  \end{itemize}
+\item
+  The second important point
+\end{itemize}
+
+Alternatively,
+
+\begin{itemize}
+\tightlist
+\item
+  The first important point
+\item
+  The second important point
+\end{itemize}
+
+Numbered lists are also supported:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  First point
+\item
+  Second point
+\end{enumerate}
+
+\hypertarget{links}{%
+\subsection{Links}\label{links}}
+
+URL is automatically recognized:
+
+\href{http://github.com}{http://github.com}
+
+Use this syntax to control the displayed text:
+
+\href{http://github.com}{GitHub}
+
+\hypertarget{code}{%
+\subsection{Code}\label{code}}
+
+Python code block with syntax highlighting:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{def}\NormalTok{ foo():}
+    \BuiltInTok{sum} \OperatorTok{=} \DecValTok{0}
+    \ControlFlowTok{for}\NormalTok{ i }\KeywordTok{in}\NormalTok{ [}\DecValTok{1}\NormalTok{,}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{,}\DecValTok{4}\NormalTok{]:}
+        \BuiltInTok{sum} \OperatorTok{+=}\NormalTok{ i}
+    \ControlFlowTok{return} \BuiltInTok{sum}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DataTypeTok{int}\NormalTok{ main()}
+\NormalTok{\{}
+    \DataTypeTok{const} \DataTypeTok{int}\NormalTok{ N = }\DecValTok{10}\NormalTok{;}
+    \DataTypeTok{int}\NormalTok{ sum = }\DecValTok{0}\NormalTok{;}
+    \ControlFlowTok{for}\NormalTok{ (}\DataTypeTok{int}\NormalTok{ i=}\DecValTok{0}\NormalTok{; i\textless{}N; i++) \{}
+\NormalTok{        sum += i;}
+\NormalTok{    \}}
+\NormalTok{    printf(}\StringTok{"sum = \%d}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{, sum);}
+    \ControlFlowTok{return} \DecValTok{0}\NormalTok{;}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{table}{%
+\subsection{Table}\label{table}}
+
+A table can be easily created:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Header 1 & Header 2\tabularnewline
+\midrule
+\endhead
+Content from cell 1 & Content from cell 2\tabularnewline
+Content in the first column & Content in the second
+column\tabularnewline
+\bottomrule
+\end{longtable}
+
+Another table style:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Header 1 & Header 2\tabularnewline
+\midrule
+\endhead
+Content from cell 1 & Content from cell 2\tabularnewline
+Content in the first column & Content in the second
+column\tabularnewline
+\bottomrule
+\end{longtable}

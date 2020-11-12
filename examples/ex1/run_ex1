@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pandoc -f gfm -t html -o ex1.html ex1.md
+pandoc -f gfm -t html -o ex1_full.html -s ex1.md
+pandoc -f gfm -t latex -o ex1.tex ex1.md
+pandoc -f gfm -t latex -o ex1.pdf ex1.md

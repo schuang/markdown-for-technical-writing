@@ -1,0 +1,16 @@
+#!/bin/bash
+
+pandoc --pdf-engine=pdflatex \
+    -H header_beamer.inc \
+    -M classoption=t \
+    -M fontsize=11pt \
+    -M indent=true \
+    -M aspectratio=169 \
+    --citeproc \
+    -f markdown -t beamer \
+    -o ex2.pdf \
+    ex2_slide.md
+
+# beamer themes
+pandoc --pdf-engine=pdflatex --citeproc -V theme:Warsaw -t beamer -o ex2_warsaw.pdf ex2_slide.md
+pandoc --pdf-engine=pdflatex --citeproc -V theme:CambridgeUS -t beamer -o ex2_cambridge.pdf ex2_slide.md
