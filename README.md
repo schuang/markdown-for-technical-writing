@@ -21,3 +21,8 @@
     - https://docs.travis-ci.com/user/tutorial/
 - Citation format (.csl files)
     - https://github.com/citation-style-language/styles
+- Tex Live (for LaTeX)
+    - https://www.tug.org/texlive/quickinstall.html
+- Sphinx
+    - https://www.sphinx-doc.org/en/master/
+
