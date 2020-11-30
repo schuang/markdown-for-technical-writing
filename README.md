@@ -25,4 +25,5 @@
     - https://www.tug.org/texlive/quickinstall.html
 - Sphinx
     - https://www.sphinx-doc.org/en/master/
-
+- VS Code editor
+    - https://marketplace.visualstudio.com/items?itemName=goessner.mdmath
